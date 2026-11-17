@@ -1,0 +1,28 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Backup
+backup_day10/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# SQLite database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Secret files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# 기타
+.DS_Store
+Thumbs.db

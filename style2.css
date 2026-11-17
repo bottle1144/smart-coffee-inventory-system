@@ -1,0 +1,163 @@
+/* =================================COFFEE INSIGHT - PREMIUM DESIGN================================= */
+
+/* 기본 설정 */
+
+* {box-sizing: border-box;}
+
+html {scroll-behavior: smooth;}
+
+body {
+    margin: 0;
+    background: #f5f4ef;
+    color: #263b32;
+    font-family: "Arial", sans-serif;
+    line-height: 1.7;}
+
+/* 상단 헤더 */
+
+header {
+    position: relative;
+    padding: 65px 20px 60px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(135deg, #102f26,#245644, #173b30);
+    border-bottom: 5px solid #c6a46b;}
+
+header p:first-child {
+    color: #d8c49c;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;}
+
+header h1 {
+    margin: 15px 0;
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 1px;}
+
+header p:last-child {
+    color: #dce8df;
+    font-size: 14px;}
+
+/* 메인 영역 */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;}
+
+/* 매출 요약 카드 */
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-bottom: 28px;}
+
+.summary .card {
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    border-left: 5px solid #b9965c;}
+
+.summary .card h2 {
+    color: #62756a;
+    font-size: 15px;}
+
+.summary .card p {
+    margin-bottom: 0;
+    color: #a77c3e;
+    font-size: 29px;
+    font-weight: 800;}
+
+/* 공통 카드 */
+
+.card {
+    padding: 28px;
+    margin-bottom: 24px;
+    background: #ffffff;
+    border: 1px solid #ebe9e1;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(31, 55, 43, 0.06);
+    transition: all 0.25s ease;}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(31, 55, 43, 0.12);}
+
+/* 카드 제목 */
+
+.card h2 {
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border-left: 4px solid #b9965c;
+    color: #214b39;
+    font-size: 19px;
+    font-weight: 750;}
+
+/* 그래프 이미지 */
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0;
+    border-radius: 10px;}
+
+/* 분석 결과 제목 */
+
+.card h3 {
+    margin-top: 28px;
+    color: #38654e;
+    font-size: 16px;}
+
+/* 분석 결과 내용 */
+
+.card p {color: #5d6c63; font-size: 14px;}
+
+.card ul {padding-left: 22px;}
+
+.card li {
+    margin-bottom: 9px;
+    color: #53665a;
+    font-size: 14px;}
+
+.card li::marker {color: #b9965c;}
+
+/* 하단 */
+
+footer {
+    padding: 35px 20px;
+    margin-top: 50px;
+    background: #183c30;
+    color: #d9e4dc;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;}
+
+/* 마우스 선택 색상 */
+
+::selection {
+    background: #c6a46b;
+    color: #ffffff;}
+
+/* 태블릿 */
+
+@media (max-width: 768px) {
+    main {width: 94%; margin: 25px auto;}
+    .card {padding: 22px;}
+    header h1 {font-size: 28px;}}
+
+/* 모바일 */
+
+@media (max-width: 600px) {
+    .summary {grid-template-columns: 1fr; gap: 12px;}
+    .summary .card p {font-size: 25px;}
+
+    header {padding: 45px 15px;}
+    header h1 {font-size: 23px;}
+
+    .card {padding: 17px; border-radius: 13px;}
+    .card h2 {font-size: 17px;}}

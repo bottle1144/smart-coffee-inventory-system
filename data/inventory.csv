@@ -1,0 +1,240 @@
+﻿store_location,product_id,product_category,product_detail,sales_30days,avg_daily_sales,current_stock,safety_stock,lead_time_days,reorder_point,stock_status,data_type
+Hell's Kitchen,87,Coffee,Ouro Brasileiro shot,435,14.5,102,29,3,73,정상,simulation
+Astoria,59,Drinking Chocolate,Dark chocolate Lg,421,14.03,99,29,3,72,정상,simulation
+Astoria,50,Tea,Earl Grey Rg,401,13.37,94,27,3,68,정상,simulation
+Astoria,57,Tea,Spicy Eye Opener Chai Lg,398,13.27,93,27,3,67,정상,simulation
+Astoria,44,Tea,Peppermint Rg,398,13.27,93,27,3,67,정상,simulation
+Astoria,55,Tea,Morning Sunrise Chai Lg,396,13.2,93,27,3,67,정상,simulation
+Astoria,31,Coffee,Ethiopia Sm,396,13.2,93,27,3,67,정상,simulation
+Astoria,61,Drinking Chocolate,Sustainably Grown Organic Lg,388,12.93,91,26,3,65,정상,simulation
+Hell's Kitchen,33,Coffee,Ethiopia Lg,385,12.83,90,26,3,65,정상,simulation
+Lower Manhattan,29,Coffee,Columbian Medium Roast Rg,383,12.77,90,26,3,65,정상,simulation
+Astoria,28,Coffee,Columbian Medium Roast Sm,383,12.77,90,26,3,65,정상,simulation
+Hell's Kitchen,22,Coffee,Our Old Time Diner Blend Sm,380,12.67,89,26,3,65,정상,simulation
+Lower Manhattan,32,Coffee,Ethiopia Rg,378,12.6,89,26,3,64,정상,simulation
+Astoria,35,Coffee,Jamaican Coffee River Rg,376,12.53,88,26,3,64,정상,simulation
+Hell's Kitchen,38,Coffee,Latte,375,12.5,88,25,3,63,정상,simulation
+Astoria,22,Coffee,Our Old Time Diner Blend Sm,373,12.43,88,25,3,63,정상,simulation
+Astoria,24,Coffee,Our Old Time Diner Blend Lg,373,12.43,88,25,3,63,정상,simulation
+Hell's Kitchen,39,Coffee,Latte Rg,373,12.43,88,25,3,63,정상,simulation
+Astoria,42,Tea,Lemon Grass Rg,372,12.4,87,25,3,63,정상,simulation
+Hell's Kitchen,60,Drinking Chocolate,Sustainably Grown Organic Rg,369,12.3,87,25,3,62,정상,simulation
+Astoria,39,Coffee,Latte Rg,367,12.23,86,25,3,62,정상,simulation
+Hell's Kitchen,50,Tea,Earl Grey Rg,366,12.2,86,25,3,62,정상,simulation
+Astoria,54,Tea,Morning Sunrise Chai Rg,365,12.17,86,25,3,62,정상,simulation
+Lower Manhattan,23,Coffee,Our Old Time Diner Blend Rg,365,12.17,86,25,3,62,정상,simulation
+Lower Manhattan,30,Coffee,Columbian Medium Roast Lg,365,12.17,86,25,3,62,정상,simulation
+Hell's Kitchen,25,Coffee,Brazilian Sm,364,12.13,85,25,3,62,정상,simulation
+Hell's Kitchen,49,Tea,English Breakfast Lg,364,12.13,85,25,3,62,정상,simulation
+Astoria,29,Coffee,Columbian Medium Roast Rg,364,12.13,85,25,3,62,정상,simulation
+Lower Manhattan,48,Tea,English Breakfast Rg,364,12.13,85,25,3,62,정상,simulation
+Lower Manhattan,38,Coffee,Latte,364,12.13,85,25,3,62,정상,simulation
+Lower Manhattan,45,Tea,Peppermint Lg,363,12.1,85,25,3,62,정상,simulation
+Astoria,36,Coffee,Jamaican Coffee River Lg,363,12.1,85,25,3,62,정상,simulation
+Lower Manhattan,31,Coffee,Ethiopia Sm,362,12.07,85,25,3,62,정상,simulation
+Astoria,26,Coffee,Brazilian Rg,362,12.07,85,25,3,62,정상,simulation
+Hell's Kitchen,46,Tea,Serenity Green Tea Rg,361,12.03,85,25,3,62,정상,simulation
+Astoria,32,Coffee,Ethiopia Rg,359,11.97,84,24,3,60,정상,simulation
+Hell's Kitchen,61,Drinking Chocolate,Sustainably Grown Organic Lg,359,11.97,84,24,3,60,정상,simulation
+Astoria,45,Tea,Peppermint Lg,358,11.93,84,24,3,60,정상,simulation
+Hell's Kitchen,55,Tea,Morning Sunrise Chai Lg,358,11.93,84,24,3,60,정상,simulation
+Hell's Kitchen,54,Tea,Morning Sunrise Chai Rg,357,11.9,84,24,3,60,정상,simulation
+Lower Manhattan,54,Tea,Morning Sunrise Chai Rg,356,11.87,84,24,3,60,정상,simulation
+Lower Manhattan,65,Flavours,Sugar Free Vanilla syrup,355,11.83,83,24,3,60,정상,simulation
+Hell's Kitchen,40,Coffee,Cappuccino,355,11.83,83,24,3,60,정상,simulation
+Hell's Kitchen,23,Coffee,Our Old Time Diner Blend Rg,354,11.8,83,24,3,60,정상,simulation
+Astoria,51,Tea,Earl Grey Lg,354,11.8,83,24,3,60,정상,simulation
+Astoria,56,Tea,Spicy Eye Opener Chai Rg,354,11.8,83,24,3,60,정상,simulation
+Hell's Kitchen,37,Coffee,Espresso shot,354,11.8,83,24,3,60,정상,simulation
+Lower Manhattan,44,Tea,Peppermint Rg,353,11.77,83,24,3,60,정상,simulation
+Hell's Kitchen,53,Tea,Traditional Blend Chai Lg,353,11.77,83,24,3,60,정상,simulation
+Astoria,52,Tea,Traditional Blend Chai Rg,353,11.77,83,24,3,60,정상,simulation
+Astoria,38,Coffee,Latte,353,11.77,83,24,3,60,정상,simulation
+Hell's Kitchen,52,Tea,Traditional Blend Chai Rg,352,11.73,83,24,3,60,정상,simulation
+Astoria,23,Coffee,Our Old Time Diner Blend Rg,352,11.73,83,24,3,60,정상,simulation
+Lower Manhattan,52,Tea,Traditional Blend Chai Rg,351,11.7,82,24,3,60,정상,simulation
+Astoria,27,Coffee,Brazilian Lg,349,11.63,82,24,3,59,정상,simulation
+Lower Manhattan,59,Drinking Chocolate,Dark chocolate Lg,349,11.63,82,24,3,59,정상,simulation
+Astoria,47,Tea,Serenity Green Tea Lg,348,11.6,82,24,3,59,정상,simulation
+Lower Manhattan,36,Coffee,Jamaican Coffee River Lg,348,11.6,82,24,3,59,정상,simulation
+Hell's Kitchen,32,Coffee,Ethiopia Rg,348,11.6,82,24,3,59,정상,simulation
+Lower Manhattan,39,Coffee,Latte Rg,347,11.57,81,24,3,59,정상,simulation
+Astoria,30,Coffee,Columbian Medium Roast Lg,346,11.53,81,24,3,59,정상,simulation
+Lower Manhattan,42,Tea,Lemon Grass Rg,345,11.5,81,23,3,58,정상,simulation
+Astoria,37,Coffee,Espresso shot,344,11.47,81,23,3,58,정상,simulation
+Astoria,58,Drinking Chocolate,Dark chocolate Rg,344,11.47,81,23,3,58,정상,simulation
+Lower Manhattan,41,Coffee,Cappuccino Lg,344,11.47,81,23,3,58,정상,simulation
+Lower Manhattan,22,Coffee,Our Old Time Diner Blend Sm,343,11.43,81,23,3,58,정상,simulation
+Lower Manhattan,51,Tea,Earl Grey Lg,343,11.43,81,23,3,58,정상,simulation
+Lower Manhattan,33,Coffee,Ethiopia Lg,343,11.43,81,23,3,58,정상,simulation
+Lower Manhattan,25,Coffee,Brazilian Sm,343,11.43,81,23,3,58,정상,simulation
+Lower Manhattan,50,Tea,Earl Grey Rg,342,11.4,80,23,3,58,정상,simulation
+Hell's Kitchen,42,Tea,Lemon Grass Rg,339,11.3,80,23,3,57,정상,simulation
+Lower Manhattan,87,Coffee,Ouro Brasileiro shot,339,11.3,80,23,3,57,정상,simulation
+Hell's Kitchen,27,Coffee,Brazilian Lg,337,11.23,79,23,3,57,정상,simulation
+Hell's Kitchen,59,Drinking Chocolate,Dark chocolate Lg,337,11.23,79,23,3,57,정상,simulation
+Hell's Kitchen,28,Coffee,Columbian Medium Roast Sm,337,11.23,79,23,3,57,정상,simulation
+Hell's Kitchen,36,Coffee,Jamaican Coffee River Lg,336,11.2,79,23,3,57,정상,simulation
+Lower Manhattan,46,Tea,Serenity Green Tea Rg,335,11.17,79,23,3,57,정상,simulation
+Hell's Kitchen,29,Coffee,Columbian Medium Roast Rg,333,11.1,78,23,3,57,정상,simulation
+Astoria,25,Coffee,Brazilian Sm,333,11.1,78,23,3,57,정상,simulation
+Lower Manhattan,34,Coffee,Jamaican Coffee River Sm,333,11.1,78,23,3,57,정상,simulation
+Astoria,53,Tea,Traditional Blend Chai Lg,333,11.1,78,23,3,57,정상,simulation
+Hell's Kitchen,24,Coffee,Our Old Time Diner Blend Lg,332,11.07,78,23,3,57,정상,simulation
+Astoria,40,Coffee,Cappuccino,331,11.03,78,23,3,57,정상,simulation
+Astoria,46,Tea,Serenity Green Tea Rg,329,10.97,77,22,3,55,정상,simulation
+Astoria,49,Tea,English Breakfast Lg,329,10.97,77,22,3,55,정상,simulation
+Hell's Kitchen,30,Coffee,Columbian Medium Roast Lg,328,10.93,77,22,3,55,정상,simulation
+Astoria,60,Drinking Chocolate,Sustainably Grown Organic Rg,327,10.9,77,22,3,55,정상,simulation
+Astoria,43,Tea,Lemon Grass Lg,327,10.9,77,22,3,55,정상,simulation
+Astoria,41,Coffee,Cappuccino Lg,327,10.9,77,22,3,55,정상,simulation
+Lower Manhattan,26,Coffee,Brazilian Rg,326,10.87,77,22,3,55,정상,simulation
+Hell's Kitchen,56,Tea,Spicy Eye Opener Chai Rg,325,10.83,76,22,3,55,정상,simulation
+Astoria,48,Tea,English Breakfast Rg,325,10.83,76,22,3,55,정상,simulation
+Hell's Kitchen,45,Tea,Peppermint Lg,324,10.8,76,22,3,55,정상,simulation
+Lower Manhattan,40,Coffee,Cappuccino,323,10.77,76,22,3,55,정상,simulation
+Hell's Kitchen,43,Tea,Lemon Grass Lg,323,10.77,76,22,3,55,정상,simulation
+Astoria,34,Coffee,Jamaican Coffee River Sm,321,10.7,75,22,3,55,정상,simulation
+Hell's Kitchen,41,Coffee,Cappuccino Lg,319,10.63,75,22,3,54,정상,simulation
+Astoria,33,Coffee,Ethiopia Lg,318,10.6,75,22,3,54,정상,simulation
+Hell's Kitchen,48,Tea,English Breakfast Rg,317,10.57,74,22,3,54,정상,simulation
+Hell's Kitchen,47,Tea,Serenity Green Tea Lg,317,10.57,74,22,3,54,정상,simulation
+Hell's Kitchen,26,Coffee,Brazilian Rg,317,10.57,74,22,3,54,정상,simulation
+Hell's Kitchen,31,Coffee,Ethiopia Sm,317,10.57,74,22,3,54,정상,simulation
+Lower Manhattan,57,Tea,Spicy Eye Opener Chai Lg,316,10.53,74,22,3,54,정상,simulation
+Lower Manhattan,49,Tea,English Breakfast Lg,316,10.53,74,22,3,54,정상,simulation
+Hell's Kitchen,51,Tea,Earl Grey Lg,315,10.5,74,21,3,53,정상,simulation
+Lower Manhattan,55,Tea,Morning Sunrise Chai Lg,315,10.5,74,21,3,53,정상,simulation
+Lower Manhattan,37,Coffee,Espresso shot,315,10.5,74,21,3,53,정상,simulation
+Hell's Kitchen,57,Tea,Spicy Eye Opener Chai Lg,315,10.5,74,21,3,53,정상,simulation
+Lower Manhattan,61,Drinking Chocolate,Sustainably Grown Organic Lg,312,10.4,73,21,3,53,정상,simulation
+Lower Manhattan,47,Tea,Serenity Green Tea Lg,312,10.4,73,21,3,53,정상,simulation
+Lower Manhattan,60,Drinking Chocolate,Sustainably Grown Organic Rg,311,10.37,73,21,3,53,정상,simulation
+Hell's Kitchen,58,Drinking Chocolate,Dark chocolate Rg,309,10.3,73,21,3,52,정상,simulation
+Lower Manhattan,27,Coffee,Brazilian Lg,306,10.2,72,21,3,52,정상,simulation
+Hell's Kitchen,44,Tea,Peppermint Rg,305,10.17,72,21,3,52,정상,simulation
+Hell's Kitchen,35,Coffee,Jamaican Coffee River Rg,304,10.13,71,21,3,52,정상,simulation
+Lower Manhattan,28,Coffee,Columbian Medium Roast Sm,302,10.07,71,21,3,52,정상,simulation
+Hell's Kitchen,34,Coffee,Jamaican Coffee River Sm,297,9.9,70,20,3,50,정상,simulation
+Lower Manhattan,56,Tea,Spicy Eye Opener Chai Rg,296,9.87,70,20,3,50,정상,simulation
+Lower Manhattan,58,Drinking Chocolate,Dark chocolate Rg,295,9.83,69,20,3,50,정상,simulation
+Lower Manhattan,35,Coffee,Jamaican Coffee River Rg,283,9.43,67,19,3,48,정상,simulation
+Lower Manhattan,43,Tea,Lemon Grass Lg,282,9.4,66,19,3,48,정상,simulation
+Lower Manhattan,53,Tea,Traditional Blend Chai Lg,281,9.37,66,19,3,48,정상,simulation
+Lower Manhattan,84,Flavours,Chocolate syrup,266,8.87,63,18,3,45,정상,simulation
+Lower Manhattan,24,Coffee,Our Old Time Diner Blend Lg,262,8.73,62,18,3,45,정상,simulation
+Lower Manhattan,63,Flavours,Carmel syrup,251,8.37,59,17,3,43,정상,simulation
+Lower Manhattan,64,Flavours,Hazelnut syrup,248,8.27,58,17,3,42,정상,simulation
+Hell's Kitchen,71,Bakery,Chocolate Croissant,244,8.13,57,17,3,42,정상,simulation
+Lower Manhattan,72,Bakery,Ginger Scone,243,8.1,57,17,3,42,정상,simulation
+Astoria,71,Bakery,Chocolate Croissant,239,7.97,56,16,3,40,정상,simulation
+Lower Manhattan,71,Bakery,Chocolate Croissant,235,7.83,55,16,3,40,정상,simulation
+Hell's Kitchen,63,Flavours,Carmel syrup,229,7.63,54,16,3,39,정상,simulation
+Hell's Kitchen,65,Flavours,Sugar Free Vanilla syrup,223,7.43,53,15,3,38,정상,simulation
+Hell's Kitchen,64,Flavours,Hazelnut syrup,219,7.3,52,15,3,37,정상,simulation
+Hell's Kitchen,84,Flavours,Chocolate syrup,208,6.93,49,14,3,35,정상,simulation
+Hell's Kitchen,72,Bakery,Ginger Scone,203,6.77,48,14,3,35,정상,simulation
+Hell's Kitchen,78,Bakery,Scottish Cream Scone ,184,6.13,43,13,3,32,정상,simulation
+Lower Manhattan,76,Bakery,Chocolate Chip Biscotti,179,5.97,42,12,3,30,정상,simulation
+Lower Manhattan,75,Bakery,Croissant,172,5.73,41,12,3,30,정상,simulation
+Hell's Kitchen,69,Bakery,Hazelnut Biscotti,162,5.4,38,11,3,28,정상,simulation
+Astoria,72,Bakery,Ginger Scone,161,5.37,38,11,3,28,정상,simulation
+Hell's Kitchen,70,Bakery,Cranberry Scone,161,5.37,38,11,3,28,정상,simulation
+Lower Manhattan,73,Bakery,Almond Croissant,160,5.33,38,11,3,27,정상,simulation
+Lower Manhattan,69,Bakery,Hazelnut Biscotti,159,5.3,38,11,3,27,정상,simulation
+Lower Manhattan,79,Bakery,Jumbo Savory Scone,156,5.2,37,11,3,27,정상,simulation
+Astoria,77,Bakery,Oatmeal Scone,156,5.2,37,11,3,27,정상,simulation
+Astoria,69,Bakery,Hazelnut Biscotti,156,5.2,37,11,3,27,정상,simulation
+Astoria,70,Bakery,Cranberry Scone,156,5.2,37,11,3,27,정상,simulation
+Astoria,76,Bakery,Chocolate Chip Biscotti,154,5.13,36,11,3,27,정상,simulation
+Astoria,79,Bakery,Jumbo Savory Scone,154,5.13,36,11,3,27,정상,simulation
+Lower Manhattan,70,Bakery,Cranberry Scone,150,5.0,35,10,3,25,정상,simulation
+Hell's Kitchen,75,Bakery,Croissant,150,5.0,35,10,3,25,정상,simulation
+Hell's Kitchen,73,Bakery,Almond Croissant,149,4.97,35,10,3,25,정상,simulation
+Hell's Kitchen,74,Bakery,Ginger Biscotti,149,4.97,35,10,3,25,정상,simulation
+Hell's Kitchen,79,Bakery,Jumbo Savory Scone,147,4.9,35,10,3,25,정상,simulation
+Lower Manhattan,77,Bakery,Oatmeal Scone,147,4.9,35,10,3,25,정상,simulation
+Astoria,73,Bakery,Almond Croissant,145,4.83,34,10,3,25,정상,simulation
+Astoria,84,Flavours,Chocolate syrup,145,4.83,34,10,3,25,정상,simulation
+Astoria,74,Bakery,Ginger Biscotti,145,4.83,34,10,3,25,정상,simulation
+Lower Manhattan,78,Bakery,Scottish Cream Scone ,144,4.8,34,10,3,25,정상,simulation
+Astoria,65,Flavours,Sugar Free Vanilla syrup,144,4.8,34,10,3,25,정상,simulation
+Astoria,75,Bakery,Croissant,144,4.8,34,10,3,25,정상,simulation
+Astoria,78,Bakery,Scottish Cream Scone ,139,4.63,33,10,3,24,정상,simulation
+Lower Manhattan,74,Bakery,Ginger Biscotti,130,4.33,31,9,3,22,정상,simulation
+Hell's Kitchen,76,Bakery,Chocolate Chip Biscotti,130,4.33,31,9,3,22,정상,simulation
+Hell's Kitchen,77,Bakery,Oatmeal Scone,128,4.27,30,9,3,22,정상,simulation
+Astoria,63,Flavours,Carmel syrup,127,4.23,30,9,3,22,정상,simulation
+Astoria,64,Flavours,Hazelnut syrup,95,3.17,23,7,3,17,정상,simulation
+Hell's Kitchen,8,Coffee beans,Civet Cat,53,1.77,13,4,3,10,정상,simulation
+Lower Manhattan,83,Branded,I Need My Bean! Latte cup,41,1.37,10,3,3,8,정상,simulation
+Lower Manhattan,82,Branded,I Need My Bean! Diner mug,36,1.2,9,3,3,7,정상,simulation
+Astoria,81,Branded,I Need My Bean! T-shirt,30,1.0,7,2,3,5,정상,simulation
+Lower Manhattan,1,Coffee beans,Brazilian - Organic,23,0.77,6,2,3,5,정상,simulation
+Hell's Kitchen,16,Loose Tea,Traditional Blend Chai,23,0.77,6,2,3,5,정상,simulation
+Lower Manhattan,81,Branded,I Need My Bean! T-shirt,22,0.73,6,2,3,5,정상,simulation
+Astoria,83,Branded,I Need My Bean! Latte cup,22,0.73,6,2,3,5,정상,simulation
+Hell's Kitchen,2,Coffee beans,Our Old Time Diner Blend,22,0.73,6,2,3,5,정상,simulation
+Hell's Kitchen,20,Packaged Chocolate,Sustainably Grown Organic,21,0.7,5,2,3,5,발주 필요,simulation
+Hell's Kitchen,19,Packaged Chocolate,Dark chocolate,20,0.67,5,2,3,5,발주 필요,simulation
+Lower Manhattan,20,Packaged Chocolate,Sustainably Grown Organic,20,0.67,5,2,3,5,발주 필요,simulation
+Hell's Kitchen,9,Coffee beans,Organic Decaf Blend,20,0.67,5,2,3,5,발주 필요,simulation
+Astoria,6,Coffee beans,Ethiopia,20,0.67,5,2,3,5,발주 필요,simulation
+Lower Manhattan,15,Loose Tea,Serenity Green Tea,19,0.63,5,2,3,4,정상,simulation
+Hell's Kitchen,14,Loose Tea,Earl Grey,19,0.63,5,2,3,4,정상,simulation
+Hell's Kitchen,1,Coffee beans,Brazilian - Organic,19,0.63,5,2,3,4,정상,simulation
+Hell's Kitchen,17,Loose Tea,Morning Sunrise Chai,18,0.6,5,2,3,4,정상,simulation
+Hell's Kitchen,11,Loose Tea,Lemon Grass,18,0.6,5,2,3,4,정상,simulation
+Hell's Kitchen,3,Coffee beans,Espresso Roast,17,0.57,5,2,3,4,정상,simulation
+Astoria,82,Branded,I Need My Bean! Diner mug,17,0.57,5,2,3,4,정상,simulation
+Lower Manhattan,9,Coffee beans,Organic Decaf Blend,17,0.57,5,2,3,4,정상,simulation
+Hell's Kitchen,83,Branded,I Need My Bean! Latte cup,16,0.53,5,2,3,4,정상,simulation
+Hell's Kitchen,6,Coffee beans,Ethiopia,16,0.53,5,2,3,4,정상,simulation
+Astoria,13,Loose Tea,English Breakfast,15,0.5,5,1,3,3,정상,simulation
+Lower Manhattan,18,Loose Tea,Spicy Eye Opener Chai,15,0.5,5,1,3,3,정상,simulation
+Hell's Kitchen,4,Coffee beans,Primo Espresso Roast,15,0.5,5,1,3,3,정상,simulation
+Lower Manhattan,17,Loose Tea,Morning Sunrise Chai,15,0.5,5,1,3,3,정상,simulation
+Lower Manhattan,8,Coffee beans,Civet Cat,14,0.47,5,1,3,3,정상,simulation
+Lower Manhattan,6,Coffee beans,Ethiopia,14,0.47,5,1,3,3,정상,simulation
+Lower Manhattan,21,Packaged Chocolate,Chili Mayan,14,0.47,5,1,3,3,정상,simulation
+Hell's Kitchen,12,Loose Tea,Peppermint,13,0.43,5,1,3,3,정상,simulation
+Lower Manhattan,2,Coffee beans,Our Old Time Diner Blend,13,0.43,5,1,3,3,정상,simulation
+Lower Manhattan,16,Loose Tea,Traditional Blend Chai,13,0.43,5,1,3,3,정상,simulation
+Astoria,11,Loose Tea,Lemon Grass,12,0.4,5,1,3,3,정상,simulation
+Astoria,17,Loose Tea,Morning Sunrise Chai,12,0.4,5,1,3,3,정상,simulation
+Astoria,7,Coffee beans,Jamacian Coffee River,12,0.4,5,1,3,3,정상,simulation
+Astoria,1,Coffee beans,Brazilian - Organic,12,0.4,5,1,3,3,정상,simulation
+Astoria,9,Coffee beans,Organic Decaf Blend,12,0.4,5,1,3,3,정상,simulation
+Astoria,3,Coffee beans,Espresso Roast,12,0.4,5,1,3,3,정상,simulation
+Lower Manhattan,13,Loose Tea,English Breakfast,12,0.4,5,1,3,3,정상,simulation
+Hell's Kitchen,21,Packaged Chocolate,Chili Mayan,11,0.37,5,1,3,3,정상,simulation
+Hell's Kitchen,5,Coffee beans,Columbian Medium Roast,11,0.37,5,1,3,3,정상,simulation
+Hell's Kitchen,18,Loose Tea,Spicy Eye Opener Chai,11,0.37,5,1,3,3,정상,simulation
+Astoria,5,Coffee beans,Columbian Medium Roast,11,0.37,5,1,3,3,정상,simulation
+Astoria,12,Loose Tea,Peppermint,11,0.37,5,1,3,3,정상,simulation
+Astoria,8,Coffee beans,Civet Cat,10,0.33,5,1,3,2,정상,simulation
+Lower Manhattan,3,Coffee beans,Espresso Roast,10,0.33,5,1,3,2,정상,simulation
+Hell's Kitchen,10,Coffee beans,Guatemalan Sustainably Grown,10,0.33,5,1,3,2,정상,simulation
+Astoria,2,Coffee beans,Our Old Time Diner Blend,10,0.33,5,1,3,2,정상,simulation
+Hell's Kitchen,15,Loose Tea,Serenity Green Tea,10,0.33,5,1,3,2,정상,simulation
+Hell's Kitchen,13,Loose Tea,English Breakfast,10,0.33,5,1,3,2,정상,simulation
+Lower Manhattan,7,Coffee beans,Jamacian Coffee River,9,0.3,5,1,3,2,정상,simulation
+Lower Manhattan,11,Loose Tea,Lemon Grass,9,0.3,5,1,3,2,정상,simulation
+Astoria,20,Packaged Chocolate,Sustainably Grown Organic,9,0.3,5,1,3,2,정상,simulation
+Hell's Kitchen,7,Coffee beans,Jamacian Coffee River,9,0.3,5,1,3,2,정상,simulation
+Astoria,4,Coffee beans,Primo Espresso Roast,9,0.3,5,1,3,2,정상,simulation
+Astoria,18,Loose Tea,Spicy Eye Opener Chai,8,0.27,5,1,3,2,정상,simulation
+Lower Manhattan,4,Coffee beans,Primo Espresso Roast,8,0.27,5,1,3,2,정상,simulation
+Astoria,10,Coffee beans,Guatemalan Sustainably Grown,8,0.27,5,1,3,2,정상,simulation
+Lower Manhattan,5,Coffee beans,Columbian Medium Roast,8,0.27,5,1,3,2,정상,simulation
+Astoria,15,Loose Tea,Serenity Green Tea,7,0.23,5,1,3,2,정상,simulation
+Lower Manhattan,10,Coffee beans,Guatemalan Sustainably Grown,7,0.23,5,1,3,2,정상,simulation
+Lower Manhattan,12,Loose Tea,Peppermint,7,0.23,5,1,3,2,정상,simulation
+Astoria,14,Loose Tea,Earl Grey,7,0.23,5,1,3,2,정상,simulation
+Astoria,21,Packaged Chocolate,Chili Mayan,7,0.23,5,1,3,2,정상,simulation
+Astoria,16,Loose Tea,Traditional Blend Chai,7,0.23,5,1,3,2,정상,simulation
+Lower Manhattan,14,Loose Tea,Earl Grey,7,0.23,5,1,3,2,정상,simulation
+Hell's Kitchen,82,Branded,I Need My Bean! Diner mug,7,0.23,5,1,3,2,정상,simulation
+Lower Manhattan,19,Packaged Chocolate,Dark chocolate,6,0.2,5,1,3,2,정상,simulation
+Hell's Kitchen,81,Branded,I Need My Bean! T-shirt,4,0.13,5,1,3,2,정상,simulation
+Astoria,19,Packaged Chocolate,Dark chocolate,3,0.1,5,1,3,2,정상,simulation
