@@ -28,4 +28,4 @@ __pycache__/
 Thumbs.db
 
 # Local backup files
-/backup//backup/
+/backup/
