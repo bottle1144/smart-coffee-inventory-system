@@ -24,26 +24,24 @@ DB_PATH = (BASE_DIR / "database" / "coffee_inventory.db")
 
 st.markdown(
     """
-
     <style>
-    .block-container {
-        padding-top: 1.5rem;
-        padding-bottom: 2rem;
+    .block-container {max-width: 1450px; padding-top: 1.8rem; padding-bottom: 3rem;}
+    [data-testid="stAppViewContainer"] {background: #F7F9FC;}
+    [data-testid="stSidebar"] {background: #EDF3F9;}
+    [data-testid="stMetric"] {
+        background: #FFFFFF; padding: 18px 20px;
+        border-radius: 16px; border: 1px solid #DFE7F0;
+        box-shadow: 0 3px 12px rgba(20, 48, 80, 0.04);
     }
-
-    [data-testid="stMetric"]{
-        background-color: #f4f7fb;
-        padding: 18px;
-        border-radius: 12px;
-        border: 1px solid #e5eaf1;
+    [data-testid="stMetricLabel"] {color: #526174; font-weight: 600;}
+    [data-testid="stMetricValue"] {color: #17365D; font-weight: 750;}
+    h1, h2, h3 {color: #17365D; letter-spacing: -0.02em;}
+    div.stButton > button[kind="primary"],
+    div.stFormSubmitButton > button[kind="primary"] {
+        background-color: #176B87; border-color: #176B87;
+        border-radius: 9px;
     }
-
-    [data-testid="stMetricLabel"] {color: #526174;}
-
-    [data-testid="stMetricValue"]{color: #17365d;}
-
-    h1, h2, h3 {color: #17365d;}
-    
+    [data-testid="stDataFrame"] {border: 1px solid #DFE7F0; border-radius: 12px;}
     </style>
     """,
     unsafe_allow_html=True
@@ -108,11 +106,10 @@ except Exception as error:
     st.exception(error)
     st.stop()
 
-st.title("📦 스마트 재고 관리 시스템")
+st.title("📦 스마트 커피 재고 관리 대시보드")
 
 st.caption(
-    "Coffee Inventory BI Dashboard | "
-    "SQLite + Pandas + Streamlit"
+    "Coffee Inventory BI Dashboard · SQLite · Pandas · Streamlit"
     )
 
 st.divider()
@@ -192,6 +189,7 @@ total_order_qty = int(
 )
 
 st.subheader("📊 재고 핵심 지표")
+st.caption("선택한 매장과 상품 조건을 기준으로 집계됩니다.")
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1: st.metric("관리 재고 항목", f"{total_products:,}개")
 with col2: st.metric("총 재고 수량",f"{total_stock:,}개")
@@ -228,7 +226,7 @@ with chart_col1:
         },
         labels={"risk_level": "위험 등급", "count": "재고 항목 수"}
     )
-    fig_risk.update_layout(showlegend=False, height=350)
+    fig_risk.update_layout(showlegend=False, height=350, plot_bgcolor="white", paper_bgcolor="white", margin=dict(l=20, r=20, t=20, b=20))
     st.plotly_chart(fig_risk, width="stretch")
 
 with chart_col2:
@@ -247,7 +245,7 @@ with chart_col2:
         color="store_location",
         labels={"store_location": "매장", "current_stock": "재고 수량"}
     )
-    fig_store.update_layout(showlegend=False, height=350)
+    fig_store.update_layout(showlegend=False, height=350, plot_bgcolor="white", paper_bgcolor="white", margin=dict(l=20, r=20, t=20, b=20))
     st.plotly_chart(fig_store, width="stretch")
 
 st.divider()
@@ -318,43 +316,6 @@ st.dataframe(
     width="stretch",
     hide_index=True
 )
-
-st.divider()
-
-st.subheader("⬇️데이터 다운로드")
-download_col1, download_col2 = st.columns(2)
-with download_col1: 
-    inventory_csv = (
-        filtered_inventory
-        .to_csv(index=False)
-        .encode("utf-8-sig")
-    )
-    st.download_button(
-        label="재고 현황 CSV 다운로드",
-        data=inventory_csv,
-        file_name="inventory_dashboard.csv",
-        mime="text/csv",
-        width="stretch"
-    )
-with download_col2:
-    order_csv = (
-        order_products
-        .to_csv(index=False)
-        .encode("utf-8-sig")
-    )
-    st.download_button(
-        label="발주 추천 CSV 다운로드",
-        data=order_csv,
-        file_name="reorder_dashboard.csv",
-        mime="text/csv",
-        width="stretch"
-    )
-
-st.divider()
-
-st.caption("스마트 재고 관리 시스템 |" " 8일차 Streamlit Dashboard")
-st.caption("※ 현재 재고와 발주량은 학습용" "시뮬레이션 데이터입니다.")
-
 
 st.divider()
 
@@ -522,3 +483,39 @@ else:
                 file_name="stock_movements.csv",
                 mime="text/csv"
             )
+
+st.divider()
+st.subheader("⬇️ 데이터 다운로드")
+st.caption("현재 선택한 필터 조건을 적용한 데이터를 CSV로 저장합니다.")
+download_col1, download_col2 = st.columns(2)
+with download_col1: 
+    inventory_csv = (
+        filtered_inventory
+        .to_csv(index=False)
+        .encode("utf-8-sig")
+    )
+    st.download_button(
+        label="재고 현황 CSV 다운로드",
+        data=inventory_csv,
+        file_name="inventory_dashboard.csv",
+        mime="text/csv",
+        width="stretch"
+    )
+with download_col2:
+    order_csv = (
+        order_products
+        .to_csv(index=False)
+        .encode("utf-8-sig")
+    )
+    st.download_button(
+        label="발주 추천 CSV 다운로드",
+        data=order_csv,
+        file_name="reorder_dashboard.csv",
+        mime="text/csv",
+        width="stretch"
+    )
+
+st.divider()
+
+st.caption("스마트 재고 관리 시스템 | Streamlit Dashboard")
+st.caption("※ 현재 재고와 발주량은 학습용 시뮬레이션 데이터입니다.")

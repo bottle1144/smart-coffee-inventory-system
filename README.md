@@ -1,143 +1,87 @@
-# ☕ Smart Coffee Inventory Management System
+# 📦 스마트 커피 재고 관리 시스템
 
-Python, Pandas, SQLite, Streamlit을 활용한 스마트 커피 재고 관리 시스템
+Python, Pandas, SQLite, Streamlit, Plotly 기반의 **학습용 커피 매장 재고 관리 대시보드**입니다.
 
-## 1. 프로젝트 소개
+> **안내:** 재고 수량과 발주량은 학습용 시뮬레이션 데이터입니다. 실제 매장 운영 데이터가 아닙니다.
 
-커피 매장 판매 데이터를 분석하고, 상품별 재고 현황과 예상 수요를 바탕으로 품절 위험을 파악하며 발주를 지원하는 데이터 기반 재고 관리 프로젝트입니다.
+## 📷 대시보드 미리보기
 
-매출 데이터 분석에서 시작하여 재고 예측, SQLite 데이터베이스 구축, 입고·출고 관리, Streamlit 대시보드 구현까지 확장했습니다.
+최종 화면 캡처 후 아래 경로에 이미지를 저장하세요.
 
-## 2. 개발 환경
+![스마트 재고 관리 대시보드](images/dashboard-overview.png)
 
-| 구분 | 사용 기술 |
+## 🎯 프로젝트 목표
+
+- 매장별 재고와 상품 현황을 한 화면에서 조회
+- 재고 위험 등급과 품절 예상일을 바탕으로 위험 상품 파악
+- 자동 발주 추천 수량 확인
+- 입고·출고 처리와 이력 조회
+- 필터 적용 결과를 CSV로 다운로드
+
+## 🛠 기술 스택
+
+| 영역 | 사용 기술 |
 |---|---|
-| Language | Python |
-| Data Analysis | Pandas, NumPy |
-| Database | SQLite |
-| Dashboard | Streamlit, Plotly |
-| Development | VS Code |
-| Version Control | Git, GitHub |
+| 데이터 처리 | Python, Pandas |
+| 데이터베이스 | SQLite |
+| 웹 대시보드 | Streamlit |
+| 시각화 | Plotly |
+| 버전 관리 | Git, GitHub |
 
-## 3. 주요 기능
+## ✨ 주요 기능
 
-### 판매 데이터 분석
-- 매장별·상품별 판매 데이터 분석
-- 상품 수요 분석
-- 분석 결과 CSV 저장
+1. **재고 KPI:** 관리 항목 수, 총 재고, 위험 항목, 발주 필요 항목, 추천 발주 수량
+2. **분석 차트:** 위험 등급별 항목 수, 매장별 재고 수량
+3. **검색 및 필터:** 매장, 위험 등급, 상품명
+4. **재고 입출고:** 매장·상품 선택 후 입고 또는 출고 처리
+5. **이력 조회:** 입출고 내역 확인 및 CSV 다운로드
+6. **데이터 내보내기:** 재고 현황과 발주 추천 결과 CSV 다운로드
 
-### 재고 관리
-- 상품별 현재 재고 확인
-- 예상 수요 기반 품절 위험 분석
-- 재고 부족 상품에 대한 발주 추천
+## 🚀 로컬 실행
 
-### 입고·출고 처리
-- 상품별 입고 수량 입력
-- 상품별 출고 수량 입력
-- SQLite 재고 수량 반영
-- 재고 변동 이력 저장
+Windows CMD 기준으로 프로젝트 폴더에서 실행합니다.
 
-### BI 대시보드
-- 재고 현황 시각화
-- 품절 위험 상품 확인
-- 발주 추천 정보 확인
-- 데이터 조회 및 관리
-
-## 4. 프로젝트 개발 과정
-
-| 일차 | 개발 내용 |
-|---|---|
-| 1일차 | 프로젝트 환경 설정 |
-| 2일차 | 데이터 구조 확인 |
-| 3일차 | 판매 데이터 전처리 |
-| 4일차 | 상품별 수요 분석 |
-| 5일차 | 재고 및 품절 위험 예측 |
-| 6일차 | 발주 추천 로직 구현 |
-| 7일차 | SQLite 데이터베이스 구축 |
-| 8일차 | Streamlit 대시보드 구현 |
-| 9일차 | 입고·출고 및 재고 변동 이력 기능 |
-| 10일차 | 최종 테스트 및 GitHub 정리 |
-
-## 5. 프로젝트 폴더 구조
-
-```text
-Coffee-Shop-Sales-Data-Inventory-Project/
-├── Coffee-Shop-Sales-Data-Analytics-Project-main/
-├── data/
-├── database/
-├── output/
-├── python/
-├── sql/
-├── app.py
-├── app_backup.py
-├── inventory_manager.py
-├── requirements.txt
-├── test_day10.py
-├── README.md
-└── .gitignore
-```
-
-`app.py`는 최종 실행 코드이며, `app_backup.py`는 개발 과정의 이전 버전입니다.
-
-## 6. 실행 방법
-
-### 프로젝트 다운로드
-
-```bash
-git clone https://github.com/bottle1144/smart-coffee-inventory-system.git
-cd smart-coffee-inventory-system
-```
-
-### 가상환경 생성
-
-```bash
+```bat
 python -m venv venv
 venv\Scripts\activate
-```
-
-### 라이브러리 설치
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 데이터베이스 준비
-
-SQLite 데이터베이스 파일은 GitHub에 포함하지 않았습니다.
-
-실행 전에 프로젝트의 `python/database.py`를 통해 초기 데이터베이스를 생성해야 합니다. 필요한 데이터 파일과 실행 순서는 실제 코드에 맞춰 확인해야 합니다.
-
-### 대시보드 실행
-
-```bash
+pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-실행 후 브라우저에서 일반적으로 다음 주소로 접속할 수 있습니다.
+브라우저에서 `http://localhost:8501`에 접속합니다.
 
-`http://localhost:8501`
+**주의:** `requirements.txt`와 SQLite 초기 데이터 생성 방법은 저장소의 실제 파일 구성에 맞춰 확인해야 합니다. 데이터베이스(`*.db`)는 GitHub에 업로드하지 않는 것이 좋으며, 새 환경에서는 DB 초기화 절차가 별도로 필요할 수 있습니다.
 
-## 7. 최종 테스트
+## 📁 주요 파일
 
-프로젝트 개발 환경에서 최종 테스트를 진행했습니다.
+```text
+smart-coffee-inventory-system/
+├── app.py                  # Streamlit 대시보드
+├── inventory_manager.py    # 재고 입출고 기능
+├── data/                   # 학습용 데이터
+├── database/               # 로컬 SQLite 데이터베이스 (업로드 제외)
+├── python/                 # 분석 및 데이터 처리 코드
+├── images/
+│   └── dashboard-overview.png
+└── README.md
+```
 
-- 데이터베이스 파일 확인
-- SQLite 무결성 검사
-- 주요 테이블 및 컬럼 확인
-- 재고 관리 관련 기능 점검
+## 🧪 테스트 체크리스트
 
-최종 테스트 결과: **ALL CHECKS PASSED**
+- [ ] 매장 필터가 작동한다
+- [ ] 위험 등급 필터가 작동한다
+- [ ] 상품명 검색이 작동한다
+- [ ] KPI와 차트가 정상 표시된다
+- [ ] 입고·출고 후 재고가 반영된다
+- [ ] 입출고 이력이 조회된다
+- [ ] CSV 다운로드가 정상 작동한다
 
-## 8. 향후 개선 방향
+## 🔎 향후 개선 방향
 
-- 판매량 예측 모델 고도화
-- 매장별 재고 비교 기능 확장
-- 품절 위험 알림 기능
-- 발주 자동화 기능
-- 클라우드 환경 배포
+- 초기 재고 복원 후 위험 등급 및 발주 추천 정보 동기화
+- 데이터베이스 초기 설정 자동화
+- 사용자 인증 및 배포 환경 구성
 
-## 9. 원본 데이터 및 참고 자료
+---
 
-원본 커피 매출 분석 자료는 프로젝트 내 `Coffee-Shop-Sales-Data-Analytics-Project-main/` 폴더에 포함되어 있습니다.
-
-원본 데이터 및 코드의 출처와 라이선스는 확인 후 명시합니다.
+**Portfolio Project · Smart Coffee Inventory Dashboard**
